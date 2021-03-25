@@ -17,9 +17,9 @@ from util import (compute_covar,
                   affine_matrix_z)
 from skimage.io import imread, imsave
 from skimage.transform import resize, rescale
-from iterators.iterator import (get_data_valid,
-                                get_data_train,
-                                get_data_test)
+# from iterators.iterator import (get_data_valid,
+#                                 get_data_train,
+#                                 get_data_test)
 import numpy as np
 from tqdm import tqdm
 from scipy.stats.stats import pearsonr
