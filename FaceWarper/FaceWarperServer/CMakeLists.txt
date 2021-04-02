@@ -27,11 +27,5 @@ find_package(GLEW REQUIRED)
 include_directories(${GLEW_INCLUDE_DIRS})
 target_link_libraries(FaceWarperServer ${GLEW_LIBRARIES})
 
-
-cmake_minimum_required (VERSION 2.6)
-project (test)
-set(CMAKE_MODULE_PATH /usr/local/bin/cmake)
-
 find_package(glm REQUIRED)
 include_directories(${GLM_INCLUDE_DIRS})
-
